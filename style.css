@@ -71,3 +71,46 @@ img {
 .clear {
   clear: both;
 }
+
+/* Esercizio */
+
+@media screen and (max-width: 419px) {
+
+
+ .row {
+   max-width: 100%;
+ }
+
+ h1 {
+   font-size: 15px;
+ }
+
+ h3 {
+   font-size: 12px;
+ }
+
+ div {
+   font-size: 10px;
+ }
+
+ #steps .row>.left,
+ #steps .row>.central,
+ #steps .row>.right, #lezioni .row>.left,
+ #lezioni .row>.right {
+   width: 100%;
+   float: none;
+ }
+
+ img {
+   max-width: 100%;
+   max-height: auto;
+   text-align: center;
+ }
+
+ #why .row img {
+   padding: 0px;
+ }
+
+
+
+}
