@@ -74,7 +74,7 @@ img {
 
 /* Esercizio */
 
-@media screen and (max-width: 819px) {
+@media screen and (max-width: 419px) {
 
 
  .row {
@@ -102,8 +102,11 @@ img {
  }
 
  img {
-   max-width: 100%;
-   max-height: auto;
+   width: 100%;
+   height: auto;
+ }
+
+ .left, .right, .central, .first, .second, .third {
    text-align: center;
  }
 
